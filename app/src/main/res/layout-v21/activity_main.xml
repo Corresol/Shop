@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+   <android.support.design.widget.AppBarLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <android.support.v7.widget.Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/icon"
+                   android:transitionName="robot"/>
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/edt_bg"
+                   android:padding="10dp"
+                   android:singleLine="true"
+                   android:hint="je cherche ..."
+                   android:layout_marginRight="10dp"
+                   android:drawableLeft="@drawable/ic_search"
+                   android:drawablePadding="5dp"/>
+           </LinearLayout>
+       </android.support.v7.widget.Toolbar>
+   </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+237 680475529"
+            android:padding="10dp"
+            android:id="@+id/tvCall"
+            android:drawableLeft="@drawable/ic_help"
+            android:drawablePadding="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cart"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 F CFA"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:id="@+id/tvCart"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/llCategoty">
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

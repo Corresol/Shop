@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="10"
+    android:layout_margin="5dp">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:src="@android:drawable/ic_delete"
+        android:id="@+id/ivDelete"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="5dp"
+        tools:text="Plantain"
+        android:id="@+id/tvName"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="5dp"
+        tools:text="1"
+        android:id="@+id/tvQuan"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="5dp"
+        tools:text="600"
+        android:id="@+id/tvPrice"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="5dp"
+        tools:text="600 F CFA"
+        android:id="@+id/tvTotal"
+        />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_c1"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Céréales" />
+        <item
+            android:id="@+id/nav_c2"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Charcuterie" />
+        <item
+            android:id="@+id/nav_c3"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Déjeuner" />
+        <item
+            android:id="@+id/nav_c4"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Epices " />
+        <item
+            android:id="@+id/nav_c5"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Farines" />
+        <item
+            android:id="@+id/nav_c6"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Féculents" />
+        <item
+            android:id="@+id/nav_c7"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Fruits et légumes" />
+        <item
+            android:id="@+id/nav_c8"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Huiles" />
+        <item
+            android:id="@+id/nav_c9"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Légumes" />
+        <item
+            android:id="@+id/nav_c10"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Tubercules" />
+        <item
+            android:id="@+id/nav_c11"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title=" Volailles" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="Logout" />
+    </group>
+
+</menu>
